@@ -109,6 +109,8 @@ $(".list-group").on("click", "span", function() {
 
   // automatically focus on new element
   dateInput.trigger("focus");
+  
+});
 
   // value of due date was changed
   $(".list-group").on("blur", "input[type='text']", function() {
@@ -139,9 +141,9 @@ $(".list-group").on("click", "span", function() {
 
     // replace input with span element
     $(this).replaceWith(taskSpan);
-  });
-
 });
+
+
 
 
 
